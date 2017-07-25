@@ -75,4 +75,3 @@ public class MainActivity extends YouTubeBaseActivity implements
     }
 
 }
-
