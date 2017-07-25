@@ -1,15 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.esports.vishal.esportsscoreapplication.MainActivity">
+    tools:context="com.esports.vishal.esportsscoreapplication.MainActivity"
+    android:weightSum="1"
+    android:orientation="horizontal"
+    android:background="@color/colorPrimaryDark">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:layout_gravity="center" />
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="230dp"
+        android:layout_height="200dp"
+        android:layout_weight="0.51"
+        android:layout_below="@+id/imageButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/overwatch"
+        android:padding="20dp"/>
 
-</LinearLayout>
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="230dp"
+        android:layout_height="200dp"
+        android:layout_weight="0.48"
+        android:layout_marginTop="29dp"
+        android:src="@drawable/lol"
+        android:padding="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="230dp"
+        android:layout_height="200dp"
+        android:layout_weight="0.48"
+        android:layout_alignTop="@+id/imageButton5"
+        android:layout_marginStart="11dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/dota2"
+        android:padding="20dp"/>
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="230dp"
+        android:layout_height="200dp"
+        android:layout_weight="0.51"
+        android:layout_alignTop="@+id/imageButton6"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/csgo"
+        android:padding="20dp"/>
+
+</RelativeLayout>
+
