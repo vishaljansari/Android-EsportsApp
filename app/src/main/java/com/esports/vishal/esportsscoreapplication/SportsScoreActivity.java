@@ -1,11 +1,8 @@
 package com.esports.vishal.esportsscoreapplication;
 
-import android.content.AsyncTaskLoader;
-import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -17,7 +14,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-
 import java.io.IOException;
 import java.net.URL;
 
@@ -27,6 +23,9 @@ public class SportsScoreActivity extends AppCompatActivity
        private static int SPLASH_TIMEOUT = 3000;
        private TextView textView;
       private ProgressBar loading;
+    private SwipeRefreshLayout swipeContainer;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,7 +33,22 @@ public class SportsScoreActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-          textView = (TextView) findViewById(R.id.csgo_fetch_data);
+        swipeContainer = (SwipeRefreshLayout) findViewById(R.id.swipeContainer);
+
+
+        swipeContainer.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+
+            @Override
+            public void onRefresh() {
+            }
+
+        });
+
+        swipeContainer.setColorSchemeResources(android.R.color.holo_blue_bright, android.R.color.holo_green_light, android.R.color.holo_orange_light, android.R.color.holo_red_light);
+
+
+
+        textView = (TextView) findViewById(R.id.csgo_fetch_data);
           loading = (ProgressBar) findViewById(R.id.progressBar);
           fetchURL();
 
