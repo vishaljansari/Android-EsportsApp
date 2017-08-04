@@ -46,8 +46,7 @@ public class SplashScreen extends AppCompatActivity {
             public void run() {
                 try {
                     int waited = 0;
-                    // Splash screen pause time
-                    while (waited < 6000) {
+                    while (waited < 4000) {
                         sleep(100);
                         waited += 100;
                     }
@@ -57,7 +56,7 @@ public class SplashScreen extends AppCompatActivity {
                     startActivity(intent);
                     SplashScreen.this.finish();
                 } catch (InterruptedException e) {
-                    // do nothing
+
                 } finally {
                     SplashScreen.this.finish();
                 }
@@ -65,6 +64,5 @@ public class SplashScreen extends AppCompatActivity {
             }
         };
         splashTread.start();
-
     }
 }

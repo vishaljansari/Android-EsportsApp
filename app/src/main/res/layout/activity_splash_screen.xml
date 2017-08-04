@@ -9,14 +9,15 @@
     android:id="@+id/lin_lay"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context="com.esports.vishal.esportsscoreapplication.SplashScreen">
+    tools:context="com.esports.vishal.esportsscoreapplication.SplashScreen"
+    android:weightSum="1">
 
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="55dp"
         android:layout_centerInParent="true"
         android:id="@+id/splash"
-        android:background="@drawable/title"/>
+        android:background="@drawable/title" />
 
 </LinearLayout>
