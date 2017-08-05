@@ -25,7 +25,7 @@
             android:label="@string/app_name">
         </activity>
         <activity
-            android:name=".SportsScoreActivity"
+            android:name=".CSGO.CsGoScoreActivity"
             android:label="@string/title_activity_sports_score"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
