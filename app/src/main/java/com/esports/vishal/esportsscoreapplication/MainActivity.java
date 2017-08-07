@@ -11,6 +11,8 @@ import android.view.Display;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageView;
+
+import com.esports.vishal.esportsscoreapplication.CSGO.CsGoScoreActivity;
 import com.squareup.picasso.Picasso;
 
 
@@ -27,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, SportsScoreActivity.class);
+                Intent intent = new Intent(MainActivity.this, CsGoScoreActivity.class);
                 startActivity(intent);
             }
         });
