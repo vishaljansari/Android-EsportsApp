@@ -1,6 +1,7 @@
 package com.esports.vishal.esportsscoreapplication.CSGO;
 
 import android.net.Uri;
+import android.text.format.DateFormat;
 import android.util.Log;
 
 import org.json.JSONArray;
@@ -27,6 +28,9 @@ public class CsGoNetworkUtility {
     SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
     String currentDate = sdf.format(new Date());
 
+    Date d = new Date();
+    CharSequence s = DateFormat.format("yyyy-MM-dd hh:mm:ss", d.getTime());
+
     String formatter = new SimpleDateFormat().toString();
 
     private static String CSGO_BASE_URL = "https://api.sportradar.us/csgo-t1/us/schedules/2017-08-03/results.json";
@@ -35,6 +39,7 @@ public class CsGoNetworkUtility {
 
 
     public static URL makeURL(){
+
         Uri uri = Uri.parse(CSGO_BASE_URL).buildUpon()
                 .appendQueryParameter(API_KEY_PARAM,API_KEY)
                 .build();
@@ -71,14 +76,23 @@ public class CsGoNetworkUtility {
 
         JSONObject jsonObject = new JSONObject(json);
         JSONArray jsonArray = jsonObject.getJSONArray("results");
-        Log.d("Array length: ", String.valueOf(jsonArray.length()));
-        for(int i=1; i <= 3; i++)
+        //JSONArray jsonA=jsonObject.getJSONArray("sport_event").getJSONArray("competitor");
+   //     Log.d("Array length: ", String.valueOf(jsonArray.length()));
+        for(int i=0; i <= jsonArray.length()-1; i++)
         {
             JSONObject mainObject = jsonArray.getJSONObject(i);
 
             String dateandtimeofgame = mainObject.getJSONObject("sport_event").getString("scheduled");
+            String season_name=mainObject.getJSONObject("sport_event").getJSONObject("tournament").getString("name");
+          //  for(int j=0;j<=jsonA.length()-1;j++)
 
-            CsGoItem csGoItem = new CsGoItem(dateandtimeofgame);
+            JSONArray team_1_abbreviations = mainObject.getJSONObject("sport_event").getJSONArray("competitors");
+            JSONObject jobj = team_1_abbreviations.getJSONObject(1);
+            String team_1_abbreviation = jobj.getString("name");
+
+
+         //   String team_1_abbreviation = (String) mainObject.getJSONObject("sport_event").getJSONObject("competitors").get("name");
+            CsGoItem csGoItem = new CsGoItem(dateandtimeofgame,season_name, team_1_abbreviation);
             csGoItems.add(csGoItem);
         //    Log.d("got it",dateandtimeofgame);
         }

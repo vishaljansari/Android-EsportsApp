@@ -49,7 +49,9 @@ public class CsGoScoreActivity extends AppCompatActivity
 
         loading = (ProgressBar) findViewById(R.id.progressBar);
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
-        recyclerView.addItemDecoration(new HorizontalDividerItemDecoration.Builder(this).build());
+
+
+
         adapter = new CsGoAdapter(csGoItemArrayList);
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setAdapter(adapter);
@@ -57,20 +59,11 @@ public class CsGoScoreActivity extends AppCompatActivity
         recyclerView.setLayoutManager(layoutManager);
 
 
-      //   swipeContainer = (SwipeRefreshLayout) findViewById(R.id.swipeContainer);
 
 
         fetchURL();
 
-//        swipeContainer.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
-//
-//            @Override
-//            public void onRefresh() {
-//            }
-//
-//        });
-//
-//        swipeContainer.setColorSchemeResources(android.R.color.holo_blue_bright, android.R.color.holo_green_light, android.R.color.holo_orange_light, android.R.color.holo_red_light);
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(

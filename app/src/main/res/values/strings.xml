@@ -6,4 +6,7 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="title_activity_csgo">CsGoActivity</string>
+    <string name="title_activity_dota2">Dota2Activity</string>
+    <string name="title_activity_lol">LolActivity</string>
 </resources>

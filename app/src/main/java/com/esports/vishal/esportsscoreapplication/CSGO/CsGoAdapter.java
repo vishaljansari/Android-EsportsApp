@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.widget.RecyclerView;
+import android.text.format.DateFormat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,7 +12,9 @@ import android.widget.TextView;
 
 import com.esports.vishal.esportsscoreapplication.R;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 
 /**
  * Created by VISHAL on 8/4/2017.
@@ -25,8 +28,11 @@ public class CsGoAdapter extends RecyclerView.Adapter<CsGoAdapter.ItemHolder> {
     private ArrayList<CsGoItem> csGoItemArrayList;
     private String[] maincsgodata;
 
+    SimpleDateFormat format = new SimpleDateFormat("yyyyMMdd_HHmmss");
 
- //   ArrayList<CsGoItem> filelist =  (ArrayList<CsGoItem>)getIntent().getSerializableExtra("csArray");
+    String currentDateandTime = format.format(new Date());
+
+
 
 
     public CsGoAdapter(ArrayList<CsGoItem> csGoItemArrayList, ItemClickListener listener)
@@ -64,9 +70,13 @@ public class CsGoAdapter extends RecyclerView.Adapter<CsGoAdapter.ItemHolder> {
 
         CsGoItem csGoItem = csGoItemArrayList.get(position);
 
-        holder.dateandtimeofgame.setText("Time : " +csGoItem.getDateandtimeofgame());
+      //  holder.dateandtimeofgame.setText("Time : " +csGoItem.getDateandtimeofgame());
+        holder.season_name.setText(csGoItem.getSeason_name());
+       // holder.team_1_abbreviation("Team : "+csGoItem.getTeam_1_abbreviation());
+        holder.dateandtimeofgame.setText(currentDateandTime);
+      //  holder.team_1_abbreviation("Team");
+        holder.team_1_abbreviation.setText(csGoItem.getTeam_1_abbreviation());
     }
-
     @Override
     public int getItemCount() {
         return csGoItemArrayList.size();
@@ -75,12 +85,17 @@ public class CsGoAdapter extends RecyclerView.Adapter<CsGoAdapter.ItemHolder> {
     public class ItemHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
         public TextView dateandtimeofgame;
-
+        public TextView season_name;
+        public TextView team_1_abbreviation;
+        Date d = new Date();
+        CharSequence s = DateFormat.format("MM-dd-yyyy", d.getTime()).toString();
         public ItemHolder(View itemView) {
             super(itemView);
 
-            dateandtimeofgame = (TextView) itemView.findViewById(R.id.dateandtimeofgame);
-
+      //      dateandtimeofgame = (TextView) itemView.findViewById(R.id.dateandtimeofgame);
+            season_name=(TextView)itemView.findViewById(R.id.season_name);
+            team_1_abbreviation=(TextView)itemView.findViewById(R.id.team_1_abbreviation);
+            dateandtimeofgame=(TextView)itemView.findViewById(R.id.current_date);
             itemView.setOnClickListener(this);
         }
 
@@ -89,6 +104,8 @@ public class CsGoAdapter extends RecyclerView.Adapter<CsGoAdapter.ItemHolder> {
             int position = getAdapterPosition();
             listener.onItemClick(position);
         }
+
+
     }
 
     public void setCsGoData(String[] csGoData)

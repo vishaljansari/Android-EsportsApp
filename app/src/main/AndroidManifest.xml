@@ -22,11 +22,18 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name">
-        </activity>
+            android:label="@string/app_name" />
         <activity
             android:name=".CSGO.CsGoScoreActivity"
             android:label="@string/title_activity_sports_score"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DOTA2.Dota2Activity"
+            android:label="@string/title_activity_dota2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LOL.LolActivity"
+            android:label="@string/title_activity_lol"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

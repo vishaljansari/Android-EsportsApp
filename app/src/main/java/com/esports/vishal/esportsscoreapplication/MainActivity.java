@@ -13,6 +13,9 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 
 import com.esports.vishal.esportsscoreapplication.CSGO.CsGoScoreActivity;
+//import com.esports.vishal.esportsscoreapplication.DOTA2.CsGoScoreActivity;
+import com.esports.vishal.esportsscoreapplication.DOTA2.Dota2Activity;
+import com.esports.vishal.esportsscoreapplication.LOL.LolActivity;
 import com.squareup.picasso.Picasso;
 
 
@@ -26,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
         CardView cardView = (CardView) findViewById(R.id.cardview_cs);
         CardView cardViewLol = (CardView) findViewById(R.id.cardview_lol) ;
+        CardView cardview_dota_2 = (CardView) findViewById(R.id.cardview_dota2);
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -37,7 +41,16 @@ public class MainActivity extends AppCompatActivity {
         cardViewLol.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d("","Cardview lol called");
+                Intent intent = new Intent(MainActivity.this, LolActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        cardview_dota_2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Dota2Activity.class);
+                startActivity(intent);
             }
         });
 

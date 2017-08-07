@@ -21,9 +21,11 @@ public class CsGoItem {
         private int home_score;
         private int away_score;
 
-    public CsGoItem(String dateandtimeofgame) {
+    public CsGoItem(String dateandtimeofgame, String season_name, String team_1_abbreviation) {
 
         this.dateandtimeofgame = dateandtimeofgame;
+        this.season_name=season_name;
+        this.team_1_abbreviation=team_1_abbreviation;
     }
 
     public String getSeason_name() {
