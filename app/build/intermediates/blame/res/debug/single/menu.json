@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\menu\\sports_score.xml",
+        "source": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\src\\main\\res\\menu\\sports_score.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_sports_score_drawer.xml",
+        "source": "D:\\Android\\EsportsScoreApplication\\app\\src\\main\\res\\menu\\activity_sports_score_drawer.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\menu\\sports_score.xml",
+        "source": "D:\\Android\\EsportsScoreApplication\\app\\src\\main\\res\\menu\\sports_score.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_sports_score_drawer.xml",
+        "source": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\src\\main\\res\\menu\\activity_sports_score_drawer.xml"
+    }
+]

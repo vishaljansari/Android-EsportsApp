@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher_round.png",
+        "source": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher_round.png",
+        "source": "D:\\Android\\EsportsScoreApplication\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
+        "source": "D:\\Android\\EsportsScoreApplication\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
+        "source": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    }
+]
