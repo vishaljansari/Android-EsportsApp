@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< vishal
         "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sports_score.xml",
         "source": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\src\\main\\res\\layout\\activity_sports_score.xml"
     },
@@ -10,12 +11,25 @@
     {
         "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
         "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+=======
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\notification_media_action.xml"
+>>>>>>> local
     },
     {
         "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
         "source": "C:\\Users\\visha\\.android\\build-cache\\470a623680b7b7789e719039421072c682de8e98\\output\\res\\layout\\design_menu_item_action_area.xml"
     },
     {
+<<<<<<< vishal
         "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
         "source": "D:\\Users\\sagar\\.android\\build-cache\\691601c1fca83edec278db93d49b9d4e6390d97a\\output\\res\\layout\\design_layout_snackbar_include.xml"
     },
@@ -254,6 +268,278 @@
     {
         "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
         "source": "D:\\Users\\sagar\\.android\\build-cache\\691601c1fca83edec278db93d49b9d4e6390d97a\\output\\res\\layout\\design_menu_item_action_area.xml"
+=======
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\visha\\.android\\build-cache\\470a623680b7b7789e719039421072c682de8e98\\output\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_custom.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_sports_score.xml",
+        "source": "D:\\Android\\EsportsScoreApplication\\app\\src\\main\\res\\layout\\nav_header_sports_score.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_sports_score.xml",
+        "source": "D:\\Android\\EsportsScoreApplication\\app\\src\\main\\res\\layout\\app_bar_sports_score.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\visha\\.android\\build-cache\\470a623680b7b7789e719039421072c682de8e98\\output\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash_screen.xml",
+        "source": "D:\\Android\\EsportsScoreApplication\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\691601c1fca83edec278db93d49b9d4e6390d97a\\output\\res\\layout\\design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\visha\\.android\\build-cache\\470a623680b7b7789e719039421072c682de8e98\\output\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_sports_score.xml",
+        "source": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\src\\main\\res\\layout\\content_sports_score.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\691601c1fca83edec278db93d49b9d4e6390d97a\\output\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\691601c1fca83edec278db93d49b9d4e6390d97a\\output\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\visha\\.android\\build-cache\\470a623680b7b7789e719039421072c682de8e98\\output\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\visha\\.android\\build-cache\\470a623680b7b7789e719039421072c682de8e98\\output\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\visha\\.android\\build-cache\\470a623680b7b7789e719039421072c682de8e98\\output\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\691601c1fca83edec278db93d49b9d4e6390d97a\\output\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\visha\\.android\\build-cache\\470a623680b7b7789e719039421072c682de8e98\\output\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_sports_score.xml",
+        "source": "D:\\Android\\EsportsScoreApplication\\app\\src\\main\\res\\layout\\content_sports_score.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\datepick.xml",
+        "source": "D:\\Android\\EsportsScoreApplication\\app\\src\\main\\res\\layout\\datepick.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\691601c1fca83edec278db93d49b9d4e6390d97a\\output\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sports_score.xml",
+        "source": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\src\\main\\res\\layout\\activity_sports_score.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
+        "source": "C:\\Users\\visha\\.android\\build-cache\\470a623680b7b7789e719039421072c682de8e98\\output\\res\\layout\\design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\abc_action_menu_layout.xml"
+>>>>>>> local
     },
     {
         "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
@@ -264,12 +550,25 @@
         "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
+<<<<<<< vishal
         "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
         "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
         "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
         "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\abc_alert_dialog_material.xml"
+=======
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash_screen.xml",
+        "source": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_sports_score.xml",
+        "source": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\src\\main\\res\\layout\\app_bar_sports_score.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\691601c1fca83edec278db93d49b9d4e6390d97a\\output\\res\\layout\\design_layout_snackbar.xml"
+>>>>>>> local
     },
     {
         "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\csgo_rows.xml",
@@ -280,6 +579,7 @@
         "source": "C:\\Users\\visha\\.android\\build-cache\\470a623680b7b7789e719039421072c682de8e98\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
+<<<<<<< vishal
         "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
         "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\notification_template_big_media_narrow.xml"
     },
@@ -292,22 +592,37 @@
         "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
+=======
+>>>>>>> local
         "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
         "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
+<<<<<<< vishal
         "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
         "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\abc_action_bar_title_item.xml"
+=======
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\691601c1fca83edec278db93d49b9d4e6390d97a\\output\\res\\layout\\design_menu_item_action_area.xml"
+>>>>>>> local
     },
     {
         "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
         "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
+<<<<<<< vishal
+=======
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\691601c1fca83edec278db93d49b9d4e6390d97a\\output\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+>>>>>>> local
         "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
         "source": "C:\\Users\\visha\\.android\\build-cache\\470a623680b7b7789e719039421072c682de8e98\\output\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
+<<<<<<< vishal
         "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
         "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\abc_action_bar_up_container.xml"
     },
@@ -318,6 +633,18 @@
     {
         "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
         "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\abc_search_view.xml"
+=======
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\691601c1fca83edec278db93d49b9d4e6390d97a\\output\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\abc_action_mode_bar.xml"
+>>>>>>> local
     },
     {
         "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
@@ -332,6 +659,13 @@
         "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
+<<<<<<< vishal
+=======
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+>>>>>>> local
         "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
         "source": "C:\\Users\\visha\\.android\\build-cache\\470a623680b7b7789e719039421072c682de8e98\\output\\res\\layout\\design_text_input_password_icon.xml"
     },
@@ -340,6 +674,7 @@
         "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
+<<<<<<< vishal
         "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
         "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\notification_template_media.xml"
     },
@@ -362,12 +697,37 @@
     {
         "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
         "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\notification_template_media.xml"
+=======
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\datepick.xml",
+        "source": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\src\\main\\res\\layout\\datepick.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow_custom.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\notification_media_cancel_action.xml"
+>>>>>>> local
     },
     {
         "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
         "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
+<<<<<<< vishal
         "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow_custom.xml",
         "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\notification_template_big_media_narrow_custom.xml"
     },
@@ -390,12 +750,39 @@
     {
         "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
         "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+=======
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\691601c1fca83edec278db93d49b9d4e6390d97a\\output\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\csgo_rows.xml",
+        "source": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\src\\main\\res\\layout\\csgo_rows.xml"
+    },
+    {
+        "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\691601c1fca83edec278db93d49b9d4e6390d97a\\output\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\691601c1fca83edec278db93d49b9d4e6390d97a\\output\\res\\layout\\design_navigation_menu_item.xml"
+>>>>>>> local
     },
     {
         "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
         "source": "D:\\Users\\sagar\\.android\\build-cache\\691601c1fca83edec278db93d49b9d4e6390d97a\\output\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
+<<<<<<< vishal
+=======
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+>>>>>>> local
         "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
         "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\abc_screen_content_include.xml"
     },
@@ -404,12 +791,17 @@
         "source": "D:\\Android\\EsportsScoreApplication\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
+<<<<<<< vishal
         "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
         "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\notification_media_cancel_action.xml"
     },
     {
         "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
         "source": "D:\\Users\\sagar\\.android\\build-cache\\691601c1fca83edec278db93d49b9d4e6390d97a\\output\\res\\layout\\design_layout_tab_icon.xml"
+=======
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+>>>>>>> local
     },
     {
         "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
@@ -420,6 +812,7 @@
         "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
+<<<<<<< vishal
         "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
         "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
@@ -428,14 +821,19 @@
         "source": "D:\\Users\\sagar\\.android\\build-cache\\691601c1fca83edec278db93d49b9d4e6390d97a\\output\\res\\layout\\design_navigation_item.xml"
     },
     {
+=======
+>>>>>>> local
         "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
         "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
+<<<<<<< vishal
         "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash_screen.xml",
         "source": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
     },
     {
+=======
+>>>>>>> local
         "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
         "source": "C:\\Users\\visha\\.android\\build-cache\\470a623680b7b7789e719039421072c682de8e98\\output\\res\\layout\\design_navigation_menu_item.xml"
     },
@@ -444,6 +842,7 @@
         "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\notification_template_lines_media.xml"
     },
     {
+<<<<<<< vishal
         "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
         "source": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
@@ -454,12 +853,17 @@
     {
         "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
         "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+=======
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_sports_score.xml",
+        "source": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\src\\main\\res\\layout\\nav_header_sports_score.xml"
+>>>>>>> local
     },
     {
         "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
         "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
+<<<<<<< vishal
         "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
         "source": "D:\\Users\\sagar\\.android\\build-cache\\691601c1fca83edec278db93d49b9d4e6390d97a\\output\\res\\layout\\design_navigation_menu.xml"
     },
@@ -474,24 +878,50 @@
     {
         "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
         "source": "D:\\Users\\sagar\\.android\\build-cache\\691601c1fca83edec278db93d49b9d4e6390d97a\\output\\res\\layout\\design_navigation_menu_item.xml"
+=======
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\abc_action_bar_title_item.xml"
+>>>>>>> local
     },
     {
         "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_custom.xml",
         "source": "C:\\Users\\visha\\.android\\build-cache\\280f06613e6ba574883d03a989721932903cca05\\output\\res\\layout\\notification_template_big_media_custom.xml"
     },
     {
+<<<<<<< vishal
         "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\csgo_rows.xml",
         "source": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\src\\main\\res\\layout\\csgo_rows.xml"
     },
     {
         "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
         "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+=======
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\691601c1fca83edec278db93d49b9d4e6390d97a\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\notification_media_cancel_action.xml"
+>>>>>>> local
     },
     {
         "merged": "D:\\Android\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sports_score.xml",
         "source": "D:\\Android\\EsportsScoreApplication\\app\\src\\main\\res\\layout\\activity_sports_score.xml"
     },
     {
+<<<<<<< vishal
         "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\datepick.xml",
         "source": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\src\\main\\res\\layout\\datepick.xml"
     },
@@ -502,5 +932,9 @@
     {
         "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
         "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+=======
+        "merged": "D:\\Users\\sagar\\Desktop\\vishal\\EsportsScoreApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "D:\\Users\\sagar\\.android\\build-cache\\febbd428ebf36139eaf9774e23646b1cf39c51ce\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+>>>>>>> local
     }
 ]
