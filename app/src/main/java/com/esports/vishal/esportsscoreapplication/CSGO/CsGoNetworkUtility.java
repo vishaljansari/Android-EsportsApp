@@ -1,10 +1,23 @@
 package com.esports.vishal.esportsscoreapplication.CSGO;
 
 import android.net.Uri;
+<<<<<<< HEAD
 import android.util.Log;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+=======
+<<<<<<< master
+import android.util.Log;
+=======
+import android.text.format.DateFormat;
+>>>>>>> local
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+>>>>>>> origin/master
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
@@ -15,15 +28,21 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.Scanner;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 /**
  * Created by VISHAL on 7/24/2017.
  */
 
 public class CsGoNetworkUtility {
 
+<<<<<<< HEAD
     private final static String TAG= "csgonet";
 
+=======
+>>>>>>> origin/master
     static ArrayList<CsGoItem> csGoItems = new ArrayList<CsGoItem>();
     SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
     String currentDate = sdf.format(new Date());
@@ -69,15 +88,24 @@ public class CsGoNetworkUtility {
 
     public static ArrayList<CsGoItem> parseJSON(String json) throws JSONException {
 
+<<<<<<< HEAD
         JSONObject jsonObject = new JSONObject(json);
         JSONArray jsonArray = jsonObject.getJSONArray("results");
         Log.d("Array length: ", String.valueOf(jsonArray.length()));
         for(int i=0; i < jsonArray.length() ; i++)
+=======
+
+        JSONObject jsonObject = new JSONObject(json);
+        JSONArray jsonArray = jsonObject.getJSONArray("results");
+        Log.d("Array length: ", String.valueOf(jsonArray.length()));
+        for(int i=1; i <= 3; i++)
+>>>>>>> origin/master
         {
             JSONObject mainObject = jsonArray.getJSONObject(i);
 
             String dateandtimeofgame = mainObject.getJSONObject("sport_event").getString("scheduled");
 
+<<<<<<< HEAD
             String season_name = mainObject.getJSONObject("sport_event").getJSONObject("tournament").getString("name");
 
             JSONArray competitors = mainObject.getJSONObject("sport_event").getJSONArray("competitors");
@@ -132,6 +160,9 @@ public class CsGoNetworkUtility {
 
 
             CsGoItem csGoItem = new CsGoItem(dateandtimeofgame,season_name,team_1_name,team_2_name,tournament_type,tournament_name,team_1_abbreviation,team_2_abbreviation,team_1_qualifier,team_2_qualifier,team_1_home_score,team_2_home_score,team_1_home_score_period,team_2_home_score_period);
+=======
+            CsGoItem csGoItem = new CsGoItem(dateandtimeofgame);
+>>>>>>> origin/master
             csGoItems.add(csGoItem);
         //    Log.d("got it",dateandtimeofgame);
         }

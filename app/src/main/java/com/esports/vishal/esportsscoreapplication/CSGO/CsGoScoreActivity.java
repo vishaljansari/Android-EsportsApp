@@ -1,5 +1,9 @@
 package com.esports.vishal.esportsscoreapplication.CSGO;
 
+<<<<<<< HEAD
+=======
+import android.content.Intent;
+>>>>>>> origin/master
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
@@ -14,10 +18,18 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+<<<<<<< HEAD
 import android.widget.Button;
 import android.widget.ProgressBar;
 
 import com.esports.vishal.esportsscoreapplication.R;
+=======
+import android.widget.ProgressBar;
+import android.widget.TextView;
+
+import com.esports.vishal.esportsscoreapplication.R;
+import com.yqritc.recyclerviewflexibledivider.HorizontalDividerItemDecoration;
+>>>>>>> origin/master
 
 import org.json.JSONException;
 
@@ -26,7 +38,11 @@ import java.net.URL;
 import java.util.ArrayList;
 
 public class CsGoScoreActivity extends AppCompatActivity
+<<<<<<< HEAD
                                implements NavigationView.OnNavigationItemSelectedListener {
+=======
+        implements NavigationView.OnNavigationItemSelectedListener {
+>>>>>>> origin/master
 
     private ProgressBar loading;
     private SwipeRefreshLayout swipeContainer;
@@ -34,8 +50,11 @@ public class CsGoScoreActivity extends AppCompatActivity
     public RecyclerView.Adapter adapter;
     private RecyclerView.LayoutManager layoutManager;
     private ArrayList<CsGoItem> csGoItemArrayList;
+<<<<<<< HEAD
     private Button button;
 
+=======
+>>>>>>> origin/master
 
 
     @Override
@@ -48,6 +67,7 @@ public class CsGoScoreActivity extends AppCompatActivity
         csGoItemArrayList = new ArrayList<CsGoItem>();
 
         loading = (ProgressBar) findViewById(R.id.progressBar);
+<<<<<<< HEAD
     //    recyclerView.addItemDecoration(new HorizontalDividerItemDecoration.Builder(this).build());
         adapter = new CsGoAdapter(csGoItemArrayList);
         layoutManager = new LinearLayoutManager(this);
@@ -64,13 +84,22 @@ public class CsGoScoreActivity extends AppCompatActivity
 //            }
 //        });
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
+=======
+        recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
+        recyclerView.addItemDecoration(new HorizontalDividerItemDecoration.Builder(this).build());
+        adapter = new CsGoAdapter(csGoItemArrayList);
+        layoutManager = new LinearLayoutManager(this);
+>>>>>>> origin/master
         recyclerView.setAdapter(adapter);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(layoutManager);
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> origin/master
       //   swipeContainer = (SwipeRefreshLayout) findViewById(R.id.swipeContainer);
 
 
@@ -94,8 +123,11 @@ public class CsGoScoreActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> origin/master
     }
 
     public ArrayList<CsGoItem> getCsGoItemArrayList() {
@@ -159,8 +191,11 @@ public class CsGoScoreActivity extends AppCompatActivity
         return true;
     }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> origin/master
     public void fetchURL(){
         CsGoDataFetchTask csGoDataFetchTask = new CsGoDataFetchTask();
         CsGoNetworkUtility csGoNetworkUtility = new CsGoNetworkUtility();
@@ -188,6 +223,13 @@ public class CsGoScoreActivity extends AppCompatActivity
                 String json = CsGoNetworkUtility.getResponseFromHttpUrl(url);
                 csGoItemArrayList = CsGoNetworkUtility.parseJSON(json);
 
+<<<<<<< HEAD
+=======
+                /*Intent intent = new Intent(CsGoScoreActivity.this, CsGoAdapter.class);
+                intent.putExtra("csArray", csGoItemArrayList);
+                startActivity(intent);*/
+
+>>>>>>> origin/master
             } catch (IOException e) {
                 e.printStackTrace();
             } catch (JSONException e) {
@@ -210,7 +252,10 @@ public class CsGoScoreActivity extends AppCompatActivity
                 CsGoAdapter adapter = new CsGoAdapter(csGoItemArrayList, new CsGoAdapter.ItemClickListener() {
                     @Override
                     public void onItemClick(int clickedItemIndex) {
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
                     }
                 });
 
@@ -218,4 +263,8 @@ public class CsGoScoreActivity extends AppCompatActivity
             }
         }
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> origin/master

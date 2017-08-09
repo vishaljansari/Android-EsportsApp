@@ -1,28 +1,48 @@
 package com.esports.vishal.esportsscoreapplication.CSGO;
 
 import android.content.Context;
+<<<<<<< HEAD
+=======
+import android.content.Intent;
+import android.os.Bundle;
+>>>>>>> origin/master
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+<<<<<<< HEAD
 import android.widget.Button;
+=======
+>>>>>>> origin/master
 import android.widget.TextView;
 
 import com.esports.vishal.esportsscoreapplication.R;
 
+<<<<<<< HEAD
 import java.text.SimpleDateFormat;
+=======
+>>>>>>> origin/master
 import java.util.ArrayList;
 
 /**
  * Created by VISHAL on 8/4/2017.
  */
+<<<<<<< HEAD
+=======
+import android.content.Context;
+import android.content.Intent;
+>>>>>>> origin/master
 
 public class CsGoAdapter extends RecyclerView.Adapter<CsGoAdapter.ItemHolder> {
 
     ItemClickListener listener;
     private ArrayList<CsGoItem> csGoItemArrayList;
+<<<<<<< HEAD
     private static final SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
     private static final String TAG = "csgoAdapter";
+=======
+    private String[] maincsgodata;
+>>>>>>> origin/master
 
 
  //   ArrayList<CsGoItem> filelist =  (ArrayList<CsGoItem>)getIntent().getSerializableExtra("csArray");
@@ -63,6 +83,7 @@ public class CsGoAdapter extends RecyclerView.Adapter<CsGoAdapter.ItemHolder> {
 
         CsGoItem csGoItem = csGoItemArrayList.get(position);
 
+<<<<<<< HEAD
 //        try {
 //            Date publishedDate = dateFormat.parse(csGoItem.getDateandtimeofgame());
 ////            holder.dateandtimeofgame.setText("Time : " +publishedDate.toString());
@@ -87,6 +108,9 @@ public class CsGoAdapter extends RecyclerView.Adapter<CsGoAdapter.ItemHolder> {
         holder.team_1_home_score.setText(csGoItem.getTeam_1_home_score());
         holder.team_2_home_score.setText(csGoItem.getTeam_2_home_score());
 
+=======
+        holder.dateandtimeofgame.setText("Time : " +csGoItem.getDateandtimeofgame());
+>>>>>>> origin/master
     }
 
     @Override
@@ -97,6 +121,7 @@ public class CsGoAdapter extends RecyclerView.Adapter<CsGoAdapter.ItemHolder> {
     public class ItemHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
         public TextView dateandtimeofgame;
+<<<<<<< HEAD
         public TextView seasonname;
         public TextView team_1_name;
         public TextView team_2_name;
@@ -113,10 +138,13 @@ public class CsGoAdapter extends RecyclerView.Adapter<CsGoAdapter.ItemHolder> {
         public TextView team_1_home_score_period;
         public TextView team_2_home_score_period;
 
+=======
+>>>>>>> origin/master
 
         public ItemHolder(View itemView) {
             super(itemView);
 
+<<<<<<< HEAD
          //   dateandtimeofgame = (TextView) itemView.findViewById(R.id.dateandtimeofgame);
             seasonname = (TextView) itemView.findViewById(R.id.seasonname);
             team_1_name = (TextView) itemView.findViewById(R.id.team_1_name);
@@ -135,6 +163,9 @@ public class CsGoAdapter extends RecyclerView.Adapter<CsGoAdapter.ItemHolder> {
 
            team_1_home_score = (TextView) itemView.findViewById(R.id.team_1_home_score);
             team_2_home_score = (TextView) itemView.findViewById(R.id.team_2_home_score);
+=======
+            dateandtimeofgame = (TextView) itemView.findViewById(R.id.dateandtimeofgame);
+>>>>>>> origin/master
 
             itemView.setOnClickListener(this);
         }
@@ -145,4 +176,13 @@ public class CsGoAdapter extends RecyclerView.Adapter<CsGoAdapter.ItemHolder> {
             listener.onItemClick(position);
         }
     }
+<<<<<<< HEAD
+=======
+
+    public void setCsGoData(String[] csGoData)
+    {
+        maincsgodata = csGoData;
+        notifyDataSetChanged();
+    }
+>>>>>>> origin/master
 }

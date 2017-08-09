@@ -10,8 +10,11 @@ public class CsGoItem {
         private String sport_name;
         private String sports_category_name;
         private String dateandtimeofgame;
+<<<<<<< HEAD
         private String team_2_name;
         private String team_1_name;
+=======
+>>>>>>> origin/master
         private String team_1_abbreviation;
         private String team_2_abbreviation;
         private String team_1_qualifier;
@@ -20,6 +23,7 @@ public class CsGoItem {
         private String team_2_country;
         private String team_1_country_code;
         private String team_2_country_code;
+<<<<<<< HEAD
         private String team_1_home_score;
         private String team_2_home_score;
         private String away_score;
@@ -73,6 +77,16 @@ public class CsGoItem {
     }
 
 
+=======
+        private int home_score;
+        private int away_score;
+
+    public CsGoItem(String dateandtimeofgame) {
+
+        this.dateandtimeofgame = dateandtimeofgame;
+    }
+
+>>>>>>> origin/master
     public String getSeason_name() {
         return season_name;
     }
@@ -169,6 +183,7 @@ public class CsGoItem {
         this.team_2_country_code = team_2_country_code;
     }
 
+<<<<<<< HEAD
     public String getTeam_1_home_score() {
         return team_1_home_score;
     }
@@ -207,5 +222,21 @@ public class CsGoItem {
 
     public void setSport_event_status(String sport_event_status) {
         this.sport_event_status = sport_event_status;
+=======
+    public int getHome_score() {
+        return home_score;
+    }
+
+    public void setHome_score(int home_score) {
+        this.home_score = home_score;
+    }
+
+    public int getAway_score() {
+        return away_score;
+    }
+
+    public void setAway_score(int away_score) {
+        this.away_score = away_score;
+>>>>>>> origin/master
     }
 }
