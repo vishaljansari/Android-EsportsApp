@@ -1,7 +1,11 @@
 package com.esports.vishal.esportsscoreapplication.CSGO;
 
 import android.net.Uri;
+<<<<<<< master
 import android.util.Log;
+=======
+import android.text.format.DateFormat;
+>>>>>>> local
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -29,7 +33,7 @@ public class CsGoNetworkUtility {
 
     String formatter = new SimpleDateFormat().toString();
 
-    private static String CSGO_BASE_URL = "https://api.sportradar.us/csgo-t1/us/schedules/2017-08-03/results.json";
+    private static String CSGO_BASE_URL = "https://api.sportradar.us/csgo-t1/us/schedules/2017-08-07/results.json";
     private static final String API_KEY_PARAM = "api_key";
         private static final String API_KEY = "29qbv2sgm6pendyxuy9fmdkg";
 
