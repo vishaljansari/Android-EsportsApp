@@ -1,0 +1,4 @@
+#Mon Aug 07 01:35:58 PDT 2017
+base.0=/Users/sagar/Desktop/vishal/EsportsScoreApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0
+renamed.0=classes.dex
+file.0=/Users/sagar/Desktop/vishal/EsportsScoreApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex
