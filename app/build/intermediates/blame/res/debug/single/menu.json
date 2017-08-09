@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/menu/dota2_item.xml",
+        "source": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/res/menu/dota2_item.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/menu/sports_score.xml",
+        "source": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/res/menu/sports_score.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/menu/activity_sports_score_drawer.xml",
+        "source": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/res/menu/activity_sports_score_drawer.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/menu/activity_dota2_item_drawer.xml",
+        "source": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/res/menu/activity_dota2_item_drawer.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/menu/activity_lol_score_drawer.xml",
+        "source": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/res/menu/activity_lol_score_drawer.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/menu/lol_score.xml",
+        "source": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/res/menu/lol_score.xml"
+    }
+]

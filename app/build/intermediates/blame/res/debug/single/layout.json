@@ -1,0 +1,294 @@
+[
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/content_sports_score.xml",
+        "source": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/res/layout/content_sports_score.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/design_bottom_navigation_item.xml",
+        "source": "/Users/sagar/.android/build-cache/691601c1fca83edec278db93d49b9d4e6390d97a/output/res/layout/design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/activity_splash_screen.xml",
+        "source": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/res/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
+        "source": "/Users/sagar/.android/build-cache/691601c1fca83edec278db93d49b9d4e6390d97a/output/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/activity_sports_score.xml",
+        "source": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/res/layout/activity_sports_score.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/Users/sagar/.android/build-cache/691601c1fca83edec278db93d49b9d4e6390d97a/output/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/datepick.xml",
+        "source": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/res/layout/datepick.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
+        "source": "/Users/sagar/.android/build-cache/691601c1fca83edec278db93d49b9d4e6390d97a/output/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
+        "source": "/Users/sagar/.android/build-cache/691601c1fca83edec278db93d49b9d4e6390d97a/output/res/layout/design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/content_dota2_item.xml",
+        "source": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/res/layout/content_dota2_item.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
+        "source": "/Users/sagar/.android/build-cache/691601c1fca83edec278db93d49b9d4e6390d97a/output/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/activity_dota2_item.xml",
+        "source": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/res/layout/activity_dota2_item.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_custom.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/app_bar_sports_score.xml",
+        "source": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/res/layout/app_bar_sports_score.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/design_text_input_password_icon.xml",
+        "source": "/Users/sagar/.android/build-cache/691601c1fca83edec278db93d49b9d4e6390d97a/output/res/layout/design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
+        "source": "/Users/sagar/.android/build-cache/691601c1fca83edec278db93d49b9d4e6390d97a/output/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
+        "source": "/Users/sagar/.android/build-cache/691601c1fca83edec278db93d49b9d4e6390d97a/output/res/layout/design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
+        "source": "/Users/sagar/.android/build-cache/691601c1fca83edec278db93d49b9d4e6390d97a/output/res/layout/design_layout_tab_text.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/nav_header_dota2_item.xml",
+        "source": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/res/layout/nav_header_dota2_item.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/activity_lol_score.xml",
+        "source": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/res/layout/activity_lol_score.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/dota2_rows.xml",
+        "source": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/res/layout/dota2_rows.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
+        "source": "/Users/sagar/.android/build-cache/691601c1fca83edec278db93d49b9d4e6390d97a/output/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/content_lol_score.xml",
+        "source": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/res/layout/content_lol_score.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow_custom.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/nav_header_sports_score.xml",
+        "source": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/res/layout/nav_header_sports_score.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
+        "source": "/Users/sagar/.android/build-cache/691601c1fca83edec278db93d49b9d4e6390d97a/output/res/layout/design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/lol_rows.xml",
+        "source": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/res/layout/lol_rows.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
+        "source": "/Users/sagar/.android/build-cache/691601c1fca83edec278db93d49b9d4e6390d97a/output/res/layout/design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/nav_header_lol_score.xml",
+        "source": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/res/layout/nav_header_lol_score.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/app_bar_lol_score.xml",
+        "source": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/res/layout/app_bar_lol_score.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
+        "source": "/Users/sagar/.android/build-cache/691601c1fca83edec278db93d49b9d4e6390d97a/output/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/app_bar_dota2_item.xml",
+        "source": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/res/layout/app_bar_dota2_item.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/csgo_rows.xml",
+        "source": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/res/layout/csgo_rows.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/layout/abc_screen_content_include.xml"
+    }
+]

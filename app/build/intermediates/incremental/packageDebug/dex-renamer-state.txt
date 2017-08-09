@@ -1,0 +1,7 @@
+#Tue Aug 08 22:54:54 PDT 2017
+base.0=/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_850d8b99c4789ee1228d3386e31fdb5fde8ae5fd
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_3d3d6a11f4617065d1769f2abae7d99d351baa89/classes.dex
+base.1=/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_3d3d6a11f4617065d1769f2abae7d99d351baa89
+file.0=/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_850d8b99c4789ee1228d3386e31fdb5fde8ae5fd/classes.dex

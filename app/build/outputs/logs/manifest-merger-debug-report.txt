@@ -1,0 +1,118 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml:2:1-40:12
+	package
+		ADDED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml:3:5-57
+		INJECTED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml:7:5-38:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/sagar/.android/build-cache/76dd60a593cb4bc919dddecc0369eee1f64bdc36/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.0.0] /Users/sagar/.android/build-cache/691601c1fca83edec278db93d49b9d4e6390d97a/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.0.0] /Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] /Users/sagar/.android/build-cache/ad9264739a88aa8f1a282db3ded0e33ab28eee6b/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.0] /Users/sagar/.android/build-cache/fb7cadaea270145146a0eacb961aad4fdd99780e/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:transition:25.0.0] /Users/sagar/.android/build-cache/625f5e71090cb5d515bf18fe54aea04a7a2f51af/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.0.0] /Users/sagar/.android/build-cache/1c51b762a8fb7b51acadc2b9b70d07d63b6ef188/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.0.0] /Users/sagar/.android/build-cache/a0bf055ce401fb38aa8224f9dcb8ffd6388f14a0/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.0] /Users/sagar/.android/build-cache/648704ff785a755a471ea694a3ab88b8858ccf81/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.0] /Users/sagar/.android/build-cache/4a60958079476774bd4c155a06fa1d17aaac69ce/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.0] /Users/sagar/.android/build-cache/a063dabf42bf1e931e37d48c4e6cc577a297120a/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.0.0] /Users/sagar/.android/build-cache/89a6e9817974faf13ada929ab039d69a6912f256/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:cardview-v7:25.0.0] /Users/sagar/.android/build-cache/f9012d3b1f77fcba122ea0abb62cb866af03f9dd/output/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml:10:9-41
+	android:supportsRtl
+		ADDED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml:12:9-35
+	android:roundIcon
+		ADDED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml:11:9-54
+	android:allowBackup
+		ADDED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml:8:9-35
+	android:icon
+		ADDED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml:9:9-43
+	android:theme
+		ADDED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml:13:9-40
+activity#com.esports.vishal.esportsscoreapplication.SplashScreen
+ADDED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml:14:9-22:20
+	android:label
+		ADDED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml:16:13-45
+	android:name
+		ADDED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml:15:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml:20:27-74
+activity#com.esports.vishal.esportsscoreapplication.MainActivity
+ADDED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml:23:9-25:48
+	android:label
+		ADDED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml:25:13-45
+	android:name
+		ADDED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml:24:13-41
+activity#com.esports.vishal.esportsscoreapplication.CSGO.CsGoScoreActivity
+ADDED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml:26:9-29:59
+	android:label
+		ADDED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml:28:13-64
+	android:theme
+		ADDED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml:29:13-56
+	android:name
+		ADDED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml:27:13-51
+activity#com.esports.vishal.esportsscoreapplication.LOL.LolScoreActivity
+ADDED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml:30:9-33:59
+	android:label
+		ADDED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml:32:13-61
+	android:theme
+		ADDED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml:33:13-56
+	android:name
+		ADDED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml:31:13-49
+activity#com.esports.vishal.esportsscoreapplication.DOTA2.Dota2ScoreActivity
+ADDED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml:34:9-37:68
+	android:label
+		ADDED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml:36:13-62
+	android:theme
+		ADDED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml:37:13-56
+	android:name
+		ADDED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml:35:13-53
+uses-sdk
+INJECTED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/sagar/.android/build-cache/76dd60a593cb4bc919dddecc0369eee1f64bdc36/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.0.0] /Users/sagar/.android/build-cache/691601c1fca83edec278db93d49b9d4e6390d97a/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.0.0] /Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] /Users/sagar/.android/build-cache/ad9264739a88aa8f1a282db3ded0e33ab28eee6b/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.0.0] /Users/sagar/.android/build-cache/fb7cadaea270145146a0eacb961aad4fdd99780e/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:transition:25.0.0] /Users/sagar/.android/build-cache/625f5e71090cb5d515bf18fe54aea04a7a2f51af/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.0.0] /Users/sagar/.android/build-cache/1c51b762a8fb7b51acadc2b9b70d07d63b6ef188/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.0.0] /Users/sagar/.android/build-cache/a0bf055ce401fb38aa8224f9dcb8ffd6388f14a0/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.0.0] /Users/sagar/.android/build-cache/648704ff785a755a471ea694a3ab88b8858ccf81/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.0.0] /Users/sagar/.android/build-cache/4a60958079476774bd4c155a06fa1d17aaac69ce/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:recyclerview-v7:25.0.0] /Users/sagar/.android/build-cache/2ce5127a82147833cbb36f9c8358abca2cd210c0/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.0.0] /Users/sagar/.android/build-cache/a063dabf42bf1e931e37d48c4e6cc577a297120a/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.0.0] /Users/sagar/.android/build-cache/89a6e9817974faf13ada929ab039d69a6912f256/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:cardview-v7:25.0.0] /Users/sagar/.android/build-cache/f9012d3b1f77fcba122ea0abb62cb866af03f9dd/output/AndroidManifest.xml:20:5-43
+MERGED from [com.makeramen:roundedimageview:2.3.0] /Users/sagar/.android/build-cache/df3baa85b8cdd055ee2248594d991823ffe001f3/output/AndroidManifest.xml:7:5-43
+MERGED from [com.yqritc:recyclerview-flexibledivider:1.4.0] /Users/sagar/.android/build-cache/8602d1a9a0dad41e15bb62e6cd9110162095390e/output/AndroidManifest.xml:8:5-10:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.0.0] /Users/sagar/.android/build-cache/691601c1fca83edec278db93d49b9d4e6390d97a/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/AndroidManifest.xml
