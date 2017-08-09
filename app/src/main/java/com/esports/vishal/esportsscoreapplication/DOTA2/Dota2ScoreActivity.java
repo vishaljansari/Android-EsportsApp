@@ -1,5 +1,7 @@
 package com.esports.vishal.esportsscoreapplication.DOTA2;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
@@ -17,6 +19,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
 
+import com.esports.vishal.esportsscoreapplication.DOTA2.Dota2Adapter;
 import com.esports.vishal.esportsscoreapplication.R;
 
 import org.json.JSONException;
@@ -183,6 +186,12 @@ public class Dota2ScoreActivity extends AppCompatActivity
                     @Override
                     public void onItemClick(int clickedItemIndex) {
 
+                        String tname = dota2ItemArrayList.get(clickedItemIndex).getSeason_name();
+                        tname = tname.replaceAll("[^a-zA-Z0-9]", "");
+
+                        String url = "https://twitter.com/hashtag/"+tname+"?src=hash";
+                        openWebPage(url);
+
                     }
                 });
 
@@ -190,5 +199,12 @@ public class Dota2ScoreActivity extends AppCompatActivity
             }
         }
     }
-}
 
+    public void openWebPage(String url) {
+        Uri webpage = Uri.parse(url);
+        Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
+        if (intent.resolveActivity(getPackageManager()) != null) {
+            startActivity(intent);
+        }
+    }
+}

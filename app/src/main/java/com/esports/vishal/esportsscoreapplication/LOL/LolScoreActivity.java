@@ -1,5 +1,7 @@
 package com.esports.vishal.esportsscoreapplication.LOL;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
@@ -48,18 +50,6 @@ public class LolScoreActivity extends AppCompatActivity
         //    recyclerView.addItemDecoration(new HorizontalDividerItemDecoration.Builder(this).build());
         adapter = new LolAdapter(lolItemArrayList);
         layoutManager = new LinearLayoutManager(this);
-        // button = (Button) findViewById(R.id.button);
-//        button.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//
-//                FragmentManager fm = getSupportFragmentManager();
-//
-//                DateFragmenter frag = new DateFragmenter();
-//
-//                frag.show(fm, "select a date ");
-//            }
-//        });
 
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
         recyclerView.setAdapter(adapter);
@@ -188,11 +178,25 @@ public class LolScoreActivity extends AppCompatActivity
                     @Override
                     public void onItemClick(int clickedItemIndex) {
 
+                        String tname = lolItemArrayList.get(clickedItemIndex).getSeason_name();
+                        tname = tname.replaceAll("[^a-zA-Z0-9]", "");
+
+                        String url = "https://twitter.com/hashtag/"+tname+"?src=hash";
+                        openWebPage(url);
+
                     }
                 });
 
                 recyclerView.setAdapter(adapter);
             }
+        }
+    }
+
+    public void openWebPage(String url) {
+        Uri webpage = Uri.parse(url);
+        Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
+        if (intent.resolveActivity(getPackageManager()) != null) {
+            startActivity(intent);
         }
     }
 }

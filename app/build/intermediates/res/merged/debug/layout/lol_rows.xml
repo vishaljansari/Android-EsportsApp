@@ -119,7 +119,13 @@
             android:layout_alignParentEnd="true"
             android:layout_toEndOf="@+id/team_1_home_score_period" />
 
-
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/twitterbutton"
+            android:layout_alignBottom="@+id/team_2_abbreviation"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="63dp" />
         <!--<TextView-->
         <!--android:id="@+id/home_score"-->
         <!--style="@style/TextAppearance.AppCompat.Small"-->

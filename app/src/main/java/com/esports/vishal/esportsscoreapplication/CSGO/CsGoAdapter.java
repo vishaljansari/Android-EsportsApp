@@ -1,7 +1,10 @@
 package com.esports.vishal.esportsscoreapplication.CSGO;
 
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -58,7 +61,7 @@ public class CsGoAdapter extends RecyclerView.Adapter<CsGoAdapter.ItemHolder> {
     }
 
     @Override
-    public void onBindViewHolder(CsGoAdapter.ItemHolder holder, int position) {
+    public void onBindViewHolder(final CsGoAdapter.ItemHolder holder, int position) {
 
 
         CsGoItem csGoItem = csGoItemArrayList.get(position);
@@ -69,6 +72,21 @@ public class CsGoAdapter extends RecyclerView.Adapter<CsGoAdapter.ItemHolder> {
 //        } catch (ParseException e) {
 //            e.printStackTrace();
 //        }
+        holder.twitterButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                int id = holder.getAdapterPosition();
+                Log.d(TAG, "id is>>>>>>>"+id);
+                String tname = csGoItemArrayList.get(id).getSeason_name();
+                tname = tname.replaceAll("[^a-zA-Z0-9]","");
+                String url = "https://twitter.com/hashtag/"+tname+"?src=hash";
+                Log.d(TAG, "url is>>>>>>"+url);
+                //openWebPage(url);
+                Uri webpage = Uri.parse(url);
+                Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
+                v.getContext().startActivity(intent);
+            }
+        });
 
 
         holder.seasonname.setText(csGoItem.getSeason_name());
@@ -112,9 +130,11 @@ public class CsGoAdapter extends RecyclerView.Adapter<CsGoAdapter.ItemHolder> {
         public TextView team_2_home_score;
         public TextView team_1_home_score_period;
         public TextView team_2_home_score_period;
+        public  Button twitterButton;
 
 
-        public ItemHolder(View itemView) {
+
+        public ItemHolder(final View itemView) {
             super(itemView);
 
          //   dateandtimeofgame = (TextView) itemView.findViewById(R.id.dateandtimeofgame);
@@ -135,7 +155,7 @@ public class CsGoAdapter extends RecyclerView.Adapter<CsGoAdapter.ItemHolder> {
 
            team_1_home_score = (TextView) itemView.findViewById(R.id.team_1_home_score);
             team_2_home_score = (TextView) itemView.findViewById(R.id.team_2_home_score);
-
+            twitterButton = (Button) itemView.findViewById(R.id.twitterbutton);
             itemView.setOnClickListener(this);
         }
 

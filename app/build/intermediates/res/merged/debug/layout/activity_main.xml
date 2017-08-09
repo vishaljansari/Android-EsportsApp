@@ -9,68 +9,9 @@
     android:background="@color/cardview_shadow_end_color"
     android:orientation="vertical">
 
-    <android.support.v7.widget.CardView
-        android:id="@+id/cardview_cs"
-        style="@style/CardViewStyle"
-        android:layout_width="201dp"
-        android:layout_height="281dp"
-        android:paddingLeft="8dp"
-        android:paddingTop="3dp"
-        android:layout_gravity="left">
-
-        <LinearLayout
-            android:layout_width="202dp"
-            android:layout_height="277dp"
-            android:background="@drawable/shape_bg_white_rounded_rect"
-            android:orientation="vertical"
-            android:weightSum="1">
-
-            <com.makeramen.roundedimageview.RoundedImageView
-                android:id="@+id/imageview_cs"
-                android:layout_width="172dp"
-                android:layout_height="171dp"
-                android:layout_gravity="center"
-                android:scaleType="centerCrop"
-                android:src="@drawable/csgo"
-                app:riv_corner_radius_bottom_left="0dp"
-                app:riv_corner_radius_bottom_right="0dp"
-                app:riv_corner_radius_top_left="@dimen/card_corner_radius"
-                app:riv_corner_radius_top_right="@dimen/card_corner_radius" />
-
-
-            <LinearLayout
-                android:layout_width="212dp"
-                android:layout_height="90dp"
-                android:gravity="center"
-                android:orientation="vertical"
-                android:padding="16dp">
-
-                <TextView
-                    android:id="@+id/textView2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="Counter Strike"
-                    android:textColor="@color/grey_700"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=""
-                    android:textColor="@color/grey_500"
-                    android:textSize="14sp" />
-
-            </LinearLayout>
-
-
-        </LinearLayout>
-    </android.support.v7.widget.CardView>
-
     <LinearLayout
-        android:layout_width="247dp"
-        android:layout_height="292dp"
+        android:layout_width="140dp"
+        android:layout_height="183dp"
         android:gravity="right"
         android:weightSum="1"
         tools:context="com.esports.vishal.esportsscoreapplication.MainActivity">
@@ -138,6 +79,65 @@
         </android.support.v7.widget.CardView>
     </LinearLayout>
 
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview_cs"
+        style="@style/CardViewStyle"
+        android:layout_width="142dp"
+        android:layout_height="185dp"
+        android:layout_gravity="left"
+        android:paddingLeft="8dp"
+        android:paddingTop="3dp">
+
+        <LinearLayout
+            android:layout_width="137dp"
+            android:layout_height="157dp"
+            android:background="@drawable/shape_bg_white_rounded_rect"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/imageview_cs"
+                android:layout_width="172dp"
+                android:layout_height="171dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/csgo"
+                app:riv_corner_radius_bottom_left="0dp"
+                app:riv_corner_radius_bottom_right="0dp"
+                app:riv_corner_radius_top_left="@dimen/card_corner_radius"
+                app:riv_corner_radius_top_right="@dimen/card_corner_radius" />
+
+
+            <LinearLayout
+                android:layout_width="212dp"
+                android:layout_height="90dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Counter Strike"
+                    android:textColor="@color/grey_700"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/grey_500"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
     <LinearLayout
         android:layout_width="247dp"
         android:layout_height="292dp"
@@ -148,12 +148,11 @@
         <android.support.v7.widget.CardView
             android:id="@+id/cardview_lol"
             style="@style/CardViewStyle"
-            android:layout_width="221dp"
-            android:layout_height="288dp"
+            android:layout_width="147dp"
+            android:layout_height="117dp"
             android:layout_gravity="top"
             android:paddingLeft="3dp"
-            android:paddingTop="3dp"
-            android:layout_weight="0.52">
+            android:paddingTop="3dp">
 
             <LinearLayout
                 android:layout_width="176dp"

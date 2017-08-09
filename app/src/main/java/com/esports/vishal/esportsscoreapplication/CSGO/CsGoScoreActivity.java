@@ -1,5 +1,7 @@
 package com.esports.vishal.esportsscoreapplication.CSGO;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
@@ -48,21 +50,9 @@ public class CsGoScoreActivity extends AppCompatActivity
         csGoItemArrayList = new ArrayList<CsGoItem>();
 
         loading = (ProgressBar) findViewById(R.id.progressBar);
-    //    recyclerView.addItemDecoration(new HorizontalDividerItemDecoration.Builder(this).build());
         adapter = new CsGoAdapter(csGoItemArrayList);
         layoutManager = new LinearLayoutManager(this);
-       // button = (Button) findViewById(R.id.button);
-//        button.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//
-//                FragmentManager fm = getSupportFragmentManager();
-//
-//                DateFragmenter frag = new DateFragmenter();
-//
-//                frag.show(fm, "select a date ");
-//            }
-//        });
+
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
         recyclerView.setAdapter(adapter);
         recyclerView.setHasFixedSize(true);
@@ -71,20 +61,9 @@ public class CsGoScoreActivity extends AppCompatActivity
 
 
 
-      //   swipeContainer = (SwipeRefreshLayout) findViewById(R.id.swipeContainer);
-
 
         fetchURL();
 
-//        swipeContainer.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
-//
-//            @Override
-//            public void onRefresh() {
-//            }
-//
-//        });
-//
-//        swipeContainer.setColorSchemeResources(android.R.color.holo_blue_bright, android.R.color.holo_green_light, android.R.color.holo_orange_light, android.R.color.holo_red_light);
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -197,7 +176,6 @@ public class CsGoScoreActivity extends AppCompatActivity
             }
             return csGoItemArrayList;
         }
-
         @Override
         protected void onPostExecute(final ArrayList<CsGoItem> csGoItemArrayList) {
             loading.setVisibility(View.GONE);
@@ -211,11 +189,25 @@ public class CsGoScoreActivity extends AppCompatActivity
                     @Override
                     public void onItemClick(int clickedItemIndex) {
 
+                        String tname = csGoItemArrayList.get(clickedItemIndex).getSeason_name();
+                        tname = tname.replaceAll("[^a-zA-Z0-9]", "");
+
+                        String url = "https://twitter.com/hashtag/"+tname+"?src=hash";
+                        openWebPage(url);
+
                     }
                 });
 
                 recyclerView.setAdapter(adapter);
             }
+        }
+    }
+
+    public void openWebPage(String url) {
+        Uri webpage = Uri.parse(url);
+        Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
+        if (intent.resolveActivity(getPackageManager()) != null) {
+            startActivity(intent);
         }
     }
 }

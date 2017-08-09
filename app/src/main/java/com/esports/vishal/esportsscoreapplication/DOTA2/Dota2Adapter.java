@@ -6,7 +6,10 @@ package com.esports.vishal.esportsscoreapplication.DOTA2;
 
 
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -22,10 +25,10 @@ import java.util.ArrayList;
  * Created by VISHAL on 8/4/2017.
  */
 
-public class Dota2Adapter extends RecyclerView.Adapter<com.esports.vishal.esportsscoreapplication.DOTA2.Dota2Adapter.ItemHolder> {
+public class Dota2Adapter extends RecyclerView.Adapter<Dota2Adapter.ItemHolder> {
 
     com.esports.vishal.esportsscoreapplication.DOTA2.Dota2Adapter.ItemClickListener listener;
-    private ArrayList<Dota2Item> Dota2ItemArrayList;
+    private ArrayList<Dota2Item> dota2ItemArrayList;
     private static final SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
     private static final String TAG = "dota2Adapter";
 
@@ -33,15 +36,15 @@ public class Dota2Adapter extends RecyclerView.Adapter<com.esports.vishal.esport
 
 
 
-    public Dota2Adapter(ArrayList<Dota2Item> dota2ItemArrayList, com.esports.vishal.esportsscoreapplication.DOTA2.Dota2Adapter.ItemClickListener listener)
+    public Dota2Adapter(ArrayList<Dota2Item> dota2ItemArrayList, Dota2Adapter.ItemClickListener listener)
     {
-        this.Dota2ItemArrayList = dota2ItemArrayList;
+        this.dota2ItemArrayList = dota2ItemArrayList;
         this.listener = listener;
     }
 
     public Dota2Adapter(ArrayList<Dota2Item> dota2ItemArrayList) {
-        this.Dota2ItemArrayList = dota2ItemArrayList;
-
+        this.dota2ItemArrayList = dota2ItemArrayList;
+        // cs = new CsGoScoreActivity();
     }
 
     public interface ItemClickListener {
@@ -63,10 +66,10 @@ public class Dota2Adapter extends RecyclerView.Adapter<com.esports.vishal.esport
     }
 
     @Override
-    public void onBindViewHolder(com.esports.vishal.esportsscoreapplication.DOTA2.Dota2Adapter.ItemHolder holder, int position) {
+    public void onBindViewHolder(final Dota2Adapter.ItemHolder holder, int position) {
 
 
-        Dota2Item dota2Item = Dota2ItemArrayList.get(position);
+        Dota2Item dota2Item = dota2ItemArrayList.get(position);
 
 //        try {
 //            Date publishedDate = dateFormat.parse(dota2Item.getDateandtimeofgame());
@@ -75,7 +78,24 @@ public class Dota2Adapter extends RecyclerView.Adapter<com.esports.vishal.esport
 //            e.printStackTrace();
 //        }
 
+        holder.twitterButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                int id = holder.getAdapterPosition();
+                Log.d(TAG, "id is>>>>>>>"+id);
+                String tname = dota2ItemArrayList.get(id).getSeason_name();
+                tname = tname.replaceAll("[^a-zA-Z0-9]","");
+                String url = "https://twitter.com/hashtag/"+tname+"?src=hash";
+                Log.d(TAG, "url is>>>>>>"+url);
+                //openWebPage(url);
+                Uri webpage = Uri.parse(url);
+                Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
+                v.getContext().startActivity(intent);
+            }
+        });
 
+
+        //String tname = csGoItemArrayList.get(id).getSeason_name();
         holder.seasonname.setText(dota2Item.getSeason_name());
         holder.team_1_name.setText(dota2Item.getTeam_1_name());
         holder.team_2_name.setText(dota2Item.getTeam_2_name());
@@ -92,11 +112,12 @@ public class Dota2Adapter extends RecyclerView.Adapter<com.esports.vishal.esport
         holder.team_1_home_score.setText(dota2Item.getTeam_1_home_score());
         holder.team_2_home_score.setText(dota2Item.getTeam_2_home_score());
 
+
     }
 
     @Override
     public int getItemCount() {
-        return Dota2ItemArrayList.size();
+        return dota2ItemArrayList.size();
     }
 
     public class ItemHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
@@ -118,8 +139,8 @@ public class Dota2Adapter extends RecyclerView.Adapter<com.esports.vishal.esport
         public TextView team_1_home_score_period;
         public TextView team_2_home_score_period;
 
-
-        public ItemHolder(View itemView) {
+        public  Button twitterButton;
+        public  ItemHolder(final View itemView) {
             super(itemView);
 
             //   dateandtimeofgame = (TextView) itemView.findViewById(R.id.dateandtimeofgame);
@@ -139,6 +160,7 @@ public class Dota2Adapter extends RecyclerView.Adapter<com.esports.vishal.esport
             team_2_home_score_period = (TextView) itemView.findViewById(R.id.team_2_home_score_period);
 
             team_1_home_score = (TextView) itemView.findViewById(R.id.team_1_home_score);
+            twitterButton = (Button) itemView.findViewById(R.id.twitterbutton);
             team_2_home_score = (TextView) itemView.findViewById(R.id.team_2_home_score);
 
             itemView.setOnClickListener(this);

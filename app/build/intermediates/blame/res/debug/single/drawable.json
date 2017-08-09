@@ -200,6 +200,10 @@
         "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/drawable/notification_icon_background.xml"
     },
     {
+        "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/drawable/twitter.png",
+        "source": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/src/main/res/drawable/twitter.png"
+    },
+    {
         "merged": "/Users/sagar/Desktop/AllGames/EsportsScoreApplication 3/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
         "source": "/Users/sagar/.android/build-cache/febbd428ebf36139eaf9774e23646b1cf39c51ce/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
