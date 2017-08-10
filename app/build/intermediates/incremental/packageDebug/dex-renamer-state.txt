@@ -1,7 +1,7 @@
-#Tue Aug 08 17:35:06 PDT 2017
-base.0=/Users/sagar/Desktop/vishal/EsportsScoreApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_2265ec0b6640f321ab5e509eca7c94d0d9ff2912
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=/Users/sagar/Desktop/vishal/EsportsScoreApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_8dfc0fbb0166d002a411f52df153ba12a9ef6558/classes.dex
-base.1=/Users/sagar/Desktop/vishal/EsportsScoreApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_8dfc0fbb0166d002a411f52df153ba12a9ef6558
-file.0=/Users/sagar/Desktop/vishal/EsportsScoreApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_2265ec0b6640f321ab5e509eca7c94d0d9ff2912/classes.dex
+#Wed Aug 09 14:25:11 PDT 2017
+base.0=/Users/sagar/Downloads/Android-EsportsApp-sagar/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_778d3caba13d9a34684033d1540d449d8505f416
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/sagar/Downloads/Android-EsportsApp-sagar/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_7e85c9efa1a86ff0be82b76a4a1b9980eedda060/classes.dex
+base.1=/Users/sagar/Downloads/Android-EsportsApp-sagar/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_7e85c9efa1a86ff0be82b76a4a1b9980eedda060
+file.0=/Users/sagar/Downloads/Android-EsportsApp-sagar/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_778d3caba13d9a34684033d1540d449d8505f416/classes.dex

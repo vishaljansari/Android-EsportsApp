@@ -1,12 +1,11 @@
 package com.esports.vishal.esportsscoreapplication.CSGO;
 
-<<<<<<< HEAD
-=======
 import android.content.Intent;
->>>>>>> origin/master
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v4.widget.SwipeRefreshLayout;
@@ -15,34 +14,29 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-<<<<<<< HEAD
 import android.widget.Button;
 import android.widget.ProgressBar;
 
+import com.esports.vishal.esportsscoreapplication.MainActivity;
 import com.esports.vishal.esportsscoreapplication.R;
-=======
-import android.widget.ProgressBar;
-import android.widget.TextView;
-
-import com.esports.vishal.esportsscoreapplication.R;
-import com.yqritc.recyclerviewflexibledivider.HorizontalDividerItemDecoration;
->>>>>>> origin/master
 
 import org.json.JSONException;
 
 import java.io.IOException;
 import java.net.URL;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
 
 public class CsGoScoreActivity extends AppCompatActivity
-<<<<<<< HEAD
-                               implements NavigationView.OnNavigationItemSelectedListener {
-=======
-        implements NavigationView.OnNavigationItemSelectedListener {
->>>>>>> origin/master
+        implements NavigationView.OnNavigationItemSelectedListener,
+        DateFragmenter.OnDialogCloseListener{
 
     private ProgressBar loading;
     private SwipeRefreshLayout swipeContainer;
@@ -50,11 +44,16 @@ public class CsGoScoreActivity extends AppCompatActivity
     public RecyclerView.Adapter adapter;
     private RecyclerView.LayoutManager layoutManager;
     private ArrayList<CsGoItem> csGoItemArrayList;
-<<<<<<< HEAD
-    private Button button;
+    DateFormat formatDateTime = DateFormat.getDateTimeInstance();
+    Calendar date = Calendar.getInstance();
 
-=======
->>>>>>> origin/master
+    private  Button button ;
+    String date2;
+    private final static String TAG= "csgo";
+    static SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+    static String currentDate = sdf.format(new Date());
+
+
 
 
     @Override
@@ -65,13 +64,13 @@ public class CsGoScoreActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
 
         csGoItemArrayList = new ArrayList<CsGoItem>();
+        //csGoItemArrayList = null;
 
         loading = (ProgressBar) findViewById(R.id.progressBar);
-<<<<<<< HEAD
-    //    recyclerView.addItemDecoration(new HorizontalDividerItemDecoration.Builder(this).build());
+        //    recyclerView.addItemDecoration(new HorizontalDividerItemDecoration.Builder(this).build());
         adapter = new CsGoAdapter(csGoItemArrayList);
         layoutManager = new LinearLayoutManager(this);
-       // button = (Button) findViewById(R.id.button);
+        // button = (Button) findViewById(R.id.button);
 //        button.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View v) {
@@ -84,26 +83,32 @@ public class CsGoScoreActivity extends AppCompatActivity
 //            }
 //        });
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
-=======
-        recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
-        recyclerView.addItemDecoration(new HorizontalDividerItemDecoration.Builder(this).build());
-        adapter = new CsGoAdapter(csGoItemArrayList);
-        layoutManager = new LinearLayoutManager(this);
->>>>>>> origin/master
         recyclerView.setAdapter(adapter);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(layoutManager);
 
+        if(savedInstanceState==null) {
+            Bundle extras = getIntent().getExtras();
+            if (extras == null) {
+                date = null;
 
-<<<<<<< HEAD
+            } else {
+                date2 = extras.getString("date");
+            }
+        }
+        else{
+            date2 = (String)savedInstanceState.getSerializable("date");
+        }
+        Log.d(TAG, "Date in csgo>>>>>>>>>>"+date2);
 
 
-=======
->>>>>>> origin/master
-      //   swipeContainer = (SwipeRefreshLayout) findViewById(R.id.swipeContainer);
 
 
-        fetchURL();
+        //   swipeContainer = (SwipeRefreshLayout) findViewById(R.id.swipeContainer);
+
+        CsGoDataFetchTask csGoDataFetchTask = new CsGoDataFetchTask();
+        csGoDataFetchTask.execute();
+        //fetchURL();
 
 //        swipeContainer.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
 //
@@ -123,11 +128,8 @@ public class CsGoScoreActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-<<<<<<< HEAD
 
 
-=======
->>>>>>> origin/master
     }
 
     public ArrayList<CsGoItem> getCsGoItemArrayList() {
@@ -172,35 +174,40 @@ public class CsGoScoreActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.select_home) {
+            Intent intent = new Intent(CsGoScoreActivity.this, MainActivity.class);
+            startActivity(intent);
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.select_date)
+        {
 
-        } else if (id == R.id.nav_slideshow) {
+            FragmentManager fm = getSupportFragmentManager();
+            DateFragmenter fragmenter = new DateFragmenter();
+            fragmenter.show(fm,"DateFragmenter");
 
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
+            //  datePicker = (DatePicker) findViewById(R.id.datePicker);
 
         }
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
 
-<<<<<<< HEAD
 
 
-=======
->>>>>>> origin/master
     public void fetchURL(){
         CsGoDataFetchTask csGoDataFetchTask = new CsGoDataFetchTask();
         CsGoNetworkUtility csGoNetworkUtility = new CsGoNetworkUtility();
-        URL url = csGoNetworkUtility.makeURL();
+        URL url = csGoNetworkUtility.makeURL(date2);
         csGoDataFetchTask.execute(url);
+    }
+
+    @Override
+    public void closeDialog(int year, int month, int day) {
+
+
     }
 
 
@@ -216,20 +223,13 @@ public class CsGoScoreActivity extends AppCompatActivity
         @Override
         protected ArrayList<CsGoItem> doInBackground(URL... params) {
 
-            URL url = CsGoNetworkUtility.makeURL();
-
+            URL url = CsGoNetworkUtility.makeURL(date2);
+            csGoItemArrayList = null;
             try {
 
                 String json = CsGoNetworkUtility.getResponseFromHttpUrl(url);
                 csGoItemArrayList = CsGoNetworkUtility.parseJSON(json);
 
-<<<<<<< HEAD
-=======
-                /*Intent intent = new Intent(CsGoScoreActivity.this, CsGoAdapter.class);
-                intent.putExtra("csArray", csGoItemArrayList);
-                startActivity(intent);*/
-
->>>>>>> origin/master
             } catch (IOException e) {
                 e.printStackTrace();
             } catch (JSONException e) {
@@ -251,20 +251,28 @@ public class CsGoScoreActivity extends AppCompatActivity
             {
                 CsGoAdapter adapter = new CsGoAdapter(csGoItemArrayList, new CsGoAdapter.ItemClickListener() {
                     @Override
-                    public void onItemClick(int clickedItemIndex) {
-<<<<<<< HEAD
+                    public void onItemClick(int clickedItemIndex, String date) {
 
-=======
->>>>>>> origin/master
+                        String tname = csGoItemArrayList.get(clickedItemIndex).getSeason_name();
+                        tname = tname.replaceAll("[^a-zA-Z0-9]", "");
+
+                        String url = "https://twitter.com/hashtag/"+tname+"?src=hash";
+                        openWebPage(url);
                     }
+
+
                 });
 
                 recyclerView.setAdapter(adapter);
             }
         }
     }
-<<<<<<< HEAD
+
+    public void openWebPage(String url) {
+        Uri webpage = Uri.parse(url);
+        Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
+        if (intent.resolveActivity(getPackageManager()) != null) {
+            startActivity(intent);
+        }
+    }
 }
-=======
-}
->>>>>>> origin/master

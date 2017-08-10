@@ -1,23 +1,10 @@
 package com.esports.vishal.esportsscoreapplication.CSGO;
 
 import android.net.Uri;
-<<<<<<< HEAD
 import android.util.Log;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-=======
-<<<<<<< master
-import android.util.Log;
-=======
-import android.text.format.DateFormat;
->>>>>>> local
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
->>>>>>> origin/master
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
@@ -25,36 +12,36 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.Scanner;
 
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/master
 /**
  * Created by VISHAL on 7/24/2017.
  */
 
 public class CsGoNetworkUtility {
 
-<<<<<<< HEAD
     private final static String TAG= "csgonet";
 
-=======
->>>>>>> origin/master
     static ArrayList<CsGoItem> csGoItems = new ArrayList<CsGoItem>();
-    SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-    String currentDate = sdf.format(new Date());
+    static SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+    Calendar cal = Calendar.getInstance();
+    static String currentDate = sdf.format(new Date());
 
     String formatter = new SimpleDateFormat().toString();
 
-    private static String CSGO_BASE_URL = "https://api.sportradar.us/csgo-t1/us/schedules/2017-08-07/results.json";
+    private static String CSGO_BASE_URL = "";
     private static final String API_KEY_PARAM = "api_key";
-        private static final String API_KEY = "29qbv2sgm6pendyxuy9fmdkg";
+    private static final String API_KEY = "huzmvbk8saf6brdfkwecc2ve";
 
 
-    public static URL makeURL(){
+
+    public static URL makeURL(String date){
+        if(date==null)
+            date = ""+"2017-08-08";
+        CSGO_BASE_URL = "https://api.sportradar.us/csgo-t1/us/schedules/"+date+"/results.json";
         Uri uri = Uri.parse(CSGO_BASE_URL).buildUpon()
                 .appendQueryParameter(API_KEY_PARAM,API_KEY)
                 .build();
@@ -88,24 +75,15 @@ public class CsGoNetworkUtility {
 
     public static ArrayList<CsGoItem> parseJSON(String json) throws JSONException {
 
-<<<<<<< HEAD
         JSONObject jsonObject = new JSONObject(json);
         JSONArray jsonArray = jsonObject.getJSONArray("results");
         Log.d("Array length: ", String.valueOf(jsonArray.length()));
         for(int i=0; i < jsonArray.length() ; i++)
-=======
-
-        JSONObject jsonObject = new JSONObject(json);
-        JSONArray jsonArray = jsonObject.getJSONArray("results");
-        Log.d("Array length: ", String.valueOf(jsonArray.length()));
-        for(int i=1; i <= 3; i++)
->>>>>>> origin/master
         {
             JSONObject mainObject = jsonArray.getJSONObject(i);
 
             String dateandtimeofgame = mainObject.getJSONObject("sport_event").getString("scheduled");
 
-<<<<<<< HEAD
             String season_name = mainObject.getJSONObject("sport_event").getJSONObject("tournament").getString("name");
 
             JSONArray competitors = mainObject.getJSONObject("sport_event").getJSONArray("competitors");
@@ -141,33 +119,14 @@ public class CsGoNetworkUtility {
                 JSONObject period_obj = period_score.getJSONObject(0);
                 team_1_home_score_period = period_obj.getString("home_score");
                 team_2_home_score_period = period_obj.getString("away_score");
-                }
-//            if(mainObject.getJSONObject("sport_event_status").getInt("home_score") == 0 && mainObject.getJSONObject("sport_event_status").getInt("home_score") == 1)
-//            {
-//                 home_score = mainObject.getJSONObject("sport_event_status").getInt("home_score");
-//                away_score = mainObject.getJSONObject("sport_event_status").getInt("away_score");
-//            }
-//            else
-//            {
-//                CsGoItem item = new CsGoItem();
-//                item.setHome_score(0);
-//                item.setAway_score(1);
-//            }
-
-            //
-       //     int home_score = mainObject.getJSONObject("sport_event_status").getInt("home_score");
-
+            }
 
 
             CsGoItem csGoItem = new CsGoItem(dateandtimeofgame,season_name,team_1_name,team_2_name,tournament_type,tournament_name,team_1_abbreviation,team_2_abbreviation,team_1_qualifier,team_2_qualifier,team_1_home_score,team_2_home_score,team_1_home_score_period,team_2_home_score_period);
-=======
-            CsGoItem csGoItem = new CsGoItem(dateandtimeofgame);
->>>>>>> origin/master
+            //csGoItem = null;
             csGoItems.add(csGoItem);
-        //    Log.d("got it",dateandtimeofgame);
         }
         return csGoItems;
     }
 
-}
-// https://api.sportradar.us/csgo-t1/us/schedules/2016-06-05/results.json?api_key={your_api_key}
+}// https://api.sportradar.us/csgo-t1/us/schedules/2016-06-05/results.json?api_key={your_api_key}

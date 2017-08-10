@@ -6,4 +6,6 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="title_activity_lol_score">LolScoreActivity</string>
+    <string name="title_activity_dota2_item">Dota2Item</string>
 </resources>

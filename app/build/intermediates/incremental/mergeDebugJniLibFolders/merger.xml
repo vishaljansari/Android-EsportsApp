@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/sagar/Desktop/vishal/EsportsScoreApplication/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/sagar/Desktop/vishal/EsportsScoreApplication/app/src/debug/jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/sagar/Downloads/Android-EsportsApp-sagar/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/sagar/Downloads/Android-EsportsApp-sagar/app/src/debug/jniLibs"/></dataSet></merger>

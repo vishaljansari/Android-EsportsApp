@@ -6,33 +6,29 @@ package com.esports.vishal.esportsscoreapplication.CSGO;
 
 public class CsGoItem {
 
-        private String season_name;
-        private String sport_name;
-        private String sports_category_name;
-        private String dateandtimeofgame;
-<<<<<<< HEAD
-        private String team_2_name;
-        private String team_1_name;
-=======
->>>>>>> origin/master
-        private String team_1_abbreviation;
-        private String team_2_abbreviation;
-        private String team_1_qualifier;
-        private String team_2_qualifier;
-        private String team_1_country;
-        private String team_2_country;
-        private String team_1_country_code;
-        private String team_2_country_code;
-<<<<<<< HEAD
-        private String team_1_home_score;
-        private String team_2_home_score;
-        private String away_score;
-        private String tournament_type;
+    private String season_name;
+    private String sport_name;
+    private String sports_category_name;
+    private String dateandtimeofgame;
+    private String team_2_name;
+    private String team_1_name;
+    private String team_1_abbreviation;
+    private String team_2_abbreviation;
+    private String team_1_qualifier;
+    private String team_2_qualifier;
+    private String team_1_country;
+    private String team_2_country;
+    private String team_1_country_code;
+    private String team_2_country_code;
+    private String team_1_home_score;
+    private String team_2_home_score;
+    private String away_score;
+    private String tournament_type;
 
-        private String team_1_home_score_period;
-        private String team_2_home_score_period;
-        private String tournament_name;
-        private String sport_event_status;
+    private String team_1_home_score_period;
+    private String team_2_home_score_period;
+    private String tournament_name;
+    private String sport_event_status;
 
     public CsGoItem(String dateandtimeofgame, String season_name, String team_1_name, String team_2_name, String tournament_type, String tournament_name,String team_1_abbreviation,String team_2_abbreviation,String team_1_qualifier, String team_2_qualifier,String team_1_home_score,String team_2_home_score,String team_1_home_score_period, String team_2_home_score_period) {
 
@@ -52,6 +48,9 @@ public class CsGoItem {
         this.team_2_home_score_period=team_2_home_score_period;
     }
 
+    public void setTournament_type(String tournament_type) {
+        this.tournament_type = tournament_type;
+    }
 
     public String getTeam_1_name() {
         return team_1_name;
@@ -72,21 +71,10 @@ public class CsGoItem {
         return tournament_type;
     }
 
-    public void setTournament_type(String tournament_type) {
-        this.tournament_type = tournament_type;
+    public String getTournament_name() {
+        return tournament_name;
     }
 
-
-=======
-        private int home_score;
-        private int away_score;
-
-    public CsGoItem(String dateandtimeofgame) {
-
-        this.dateandtimeofgame = dateandtimeofgame;
-    }
-
->>>>>>> origin/master
     public String getSeason_name() {
         return season_name;
     }
@@ -183,7 +171,6 @@ public class CsGoItem {
         this.team_2_country_code = team_2_country_code;
     }
 
-<<<<<<< HEAD
     public String getTeam_1_home_score() {
         return team_1_home_score;
     }
@@ -222,21 +209,5 @@ public class CsGoItem {
 
     public void setSport_event_status(String sport_event_status) {
         this.sport_event_status = sport_event_status;
-=======
-    public int getHome_score() {
-        return home_score;
-    }
-
-    public void setHome_score(int home_score) {
-        this.home_score = home_score;
-    }
-
-    public int getAway_score() {
-        return away_score;
-    }
-
-    public void setAway_score(int away_score) {
-        this.away_score = away_score;
->>>>>>> origin/master
     }
 }

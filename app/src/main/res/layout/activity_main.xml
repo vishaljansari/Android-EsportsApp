@@ -7,7 +7,7 @@
     tools:context="com.esports.vishal.esportsscoreapplication.MainActivity"
     android:layout_height="match_parent"
     android:background="@color/cardview_shadow_end_color"
-    android:orientation="horizontal">
+    android:orientation="vertical">
 
     <android.support.v7.widget.CardView
         android:id="@+id/cardview_cs"
@@ -52,7 +52,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:text="Counter Strike"
-                    android:textColor="@color/grey_700"
+                    android:textColor="@color/White"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -60,7 +60,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text=""
-                    android:textColor="@color/grey_500"
+                    android:textColor="@color/White"
                     android:textSize="14sp" />
 
             </LinearLayout>
@@ -72,12 +72,12 @@
     <LinearLayout
         android:layout_width="247dp"
         android:layout_height="292dp"
-        tools:context="com.esports.vishal.esportsscoreapplication.MainActivity"
+        android:gravity="right"
         android:weightSum="1"
-        android:gravity="right">
+        tools:context="com.esports.vishal.esportsscoreapplication.MainActivity">
 
         <android.support.v7.widget.CardView
-            android:id="@+id/cardview_lol"
+            android:id="@+id/cardview_dota2"
             style="@style/CardViewStyle"
             android:layout_width="221dp"
             android:layout_height="288dp"
@@ -97,13 +97,13 @@
                     android:layout_width="208dp"
                     android:layout_height="143dp"
                     android:layout_gravity="center"
+                    android:layout_weight="0.69"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/lol"
+                    android:src="@drawable/dota2"
                     app:riv_corner_radius_bottom_left="0dp"
                     app:riv_corner_radius_bottom_right="0dp"
                     app:riv_corner_radius_top_left="@dimen/card_corner_radius"
-                    app:riv_corner_radius_top_right="@dimen/card_corner_radius"
-                    android:layout_weight="0.69" />
+                    app:riv_corner_radius_top_right="@dimen/card_corner_radius" />
 
 
                 <LinearLayout
@@ -122,14 +122,14 @@
                         android:layout_gravity="center"
                         android:layout_weight="0.15"
                         android:text="League Of Legends"
-                        android:textColor="@color/grey_700"
+                        android:textColor="@color/White"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/grey_500"
+                        android:textColor="@color/White"
                         android:textSize="14sp" />
 
                 </LinearLayout>
